@@ -1,0 +1,19 @@
+@use 'variables';
+@use 'typography';
+
+
+#introSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: variables.$color-black;
+    background: variables.$color-grey2;
+}
+
+
+.introBtn {
+   @extend%buttonPrimary;
+}
+
+.introText__size {
+    font-size: 25px;
+}

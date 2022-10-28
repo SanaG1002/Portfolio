@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=5, user-scalable=yes">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Add iOS meta tags and icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+  <meta name="apple-mobile-web-app-title" content="RESO People inc.">
+  <link rel="apple-touch-icon" href="/img/icons/maskable_icon_x144.png">
+  <meta name="theme-color" content="#495560" />
+  <meta name="description" content="Site web de RESO People inc.">
+</head>
+
+<body>
+  <!-- Menu -->
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top navbar__bg">
+      <div class="container-fluid">
+        <div class="d-flex flex-row align-items-center justify-content-between w-100">
+          <!-- Logo -->
+          <h1>Sana Ghariani</h1>
+
+          <!-- Bouton responsive -->
+          <button class="navbar-toggler nav__btnResponsive " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!-- Items du menu -->
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-end align-items-center navbarResponsive__bg">
+            <li>
+              <a class="menuNav__link" href="#introSection">Présentation</a>
+            </li>
+            <li>
+              <a class="menuNav__link" href="#needSection">Projet</a>
+            </li>
+            <li>
+              <a class="menuNav__link" href="#descriptionSelection">Compétance</a>
+            </li>
+            <li>
+              <a class="menuNav__link" href="#contactSection">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introSection">
+      <div class="container">
+        <div class="row d-flex flex-column align-items-center">
+          <div class="col-12 col-lg-8 text-center">
+            <div class="animationOpacity">
+
+              <h2> Recherche un poste de developpeuse Front End.
+              </h2>
+              <p class="introText__size">En 2018, j'ai commencer le developpement web en autodidacte avec le HTML, le CSS et le JavaScript. 
+                J'ai créé avec mon conjoin une application web qui nous a conduit à céer notre entreprise <a href="https://www.resopeople.com/App/">RESO People Inc.</a>, 
+                ou j'ai créé le site web at participé au developpement de l'application.
+                Pour valider et perfectionner mes connaissances technique de developpement j'ai faitun AEC Développement Front End au <a href="https://formation-mauricie.ca/programme/developpement-web/">CEGEP de Trois Rivière</a>.
+                Pour aquerire d'aventage d'experience je suis à la recherche d'un emploie de développent front end. 
+                
+              </p>
+            </div>
+
+            <img class="introImg animationLeft" src="./img/bonbon-web-development-1.png" alt="Image de présentation application">
+          </div>
+
+          <div class="col-12  text-center ">
+            <button type="button" class="btn introBtn animationRight" data-bs-toggle="modal" data-bs-target="#demoModal"
+              data-bs-whatever="@fat">
+              Me contacter
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="needSection">
+      <div class="container">
+
+        <h3 class="text-center mt-5 mb-5">Pourquoi utiliser la plateforme web People</h3>
+        
+        <div class="card descriptionCardBody__bg need__card pt-5 pb-5">
+          <div class="row d-flex align-items-center ">
+
+            <div class="col-lg-4">
+              <img src="./img/need/img-need3.png" class="img-fluid rounded-start"
+                alt="Image illustration répondre aux besoins de votre organisation">
+            </div>
+
+            <div class="col-lg-8">
+              <div class="card-body ">
+                <h4 class="card-title">Projet 1</h4>
+                <p class="card-text">La plateforme modulable People vous permet une création illimitée et une facilité
+                  de mise en place, pour répondre à tous vos besoins.
+                  Pour répondre à vos besoins multiples et simplifier la création de vos solution, RESO People vous
+                  propose une solution clé en main à moindre coût.
+                </p>
+                <a class="needCard__link" href="solution.html">
+                  En savoir plus <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container d-flex flex-column align-items-center">
+          <div class="line__horizontal"></div>
+        </div>
+
+        <div class="card descriptionCardBody__bg need__card pb-5">
+            <div class="col-lg-4">
+              <img src="./img/need/img-need1.png" class="img-fluid rounded-start"
+                alt="Image illustration contrôler et maîtriser l’information">
+            </div>
+
+            <div class="col-lg-8">
+              <div class="card-body ">
+                <h4 class="card-title">Projet 2</h4>
+                <p class="card-text">La plateforme People vous permet de reprendre le contrôle de l’information, et
+                  devient alors un outil précieux.
+                  RESO People vous permet de créer des outils web à votre image. Profitez d’une sécurité maximale, sans
+                  aucun effort,
+                  ni contrainte technique car vos espaces sont hébergés et maintenus par nos équipes.
+                </p>
+                <a class="needCard__link" href="solution.html">
+                  En savoir plus <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container d-flex flex-column align-items-center">
+          <div class="line__horizontal"></div>
+        </div>
+
+        <div class="card descriptionCardBody__bg need__card pt-5 pb-5">
+          <div class="row d-flex align-items-center">
+
+            <div class="col-lg-4">
+              <img src="./img/need/img-need2.png" class="img-fluid rounded-start"
+                alt="Image illustration exploitation des données">
+            </div>
+
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Projet 3</h4>
+                <p class="card-text">La platreforme web va vous permettre de centraliser et organiser vos informations.
+                  Toutes les plateformes web de RESO People, possèdent une des solution d'analyse de données, les plus
+                  puissantes du marché.
+                </p>
+                <a class="needCard__link" href="solution.html">
+                  En savoir plus <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="descriptionSelection">
+      <div class="card-group">
+
+        <div class="row d-flex justify-content-center text-center">
+
+          <h3 class="mb-5 mt-5">Les languages de programation</h3>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-comunication.png" class="descriptionCard__img "
+              alt="Image illustration communication">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Communication</h4>
+              <p class="card-text">Utilisez des outils de communication instinctifs dans une seule plateforme pour
+                optimiser vos échanges et centraliser vos informations.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-team-work.png" class="descriptionCard__img"
+              alt="Image illustration travail collaboratif">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Travail collaboratif</h4>
+              <p class="card-text">Créez votre plateforme de travail optimisée, avec différents modules connectés pour
+                permettre et faciliter le travail collaboratif.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-module.png" class=" descriptionCard__img"
+              alt="Image illustration module à la carte">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Module à la carte</h4>
+              <p class="card-text">Choisissez ou créez, en tout temps, des modules qui répondent à vos problématiques
+                et personnalisez votre plateforme en fonction de vos besoins évolutifs.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-api.png" class="descriptionCard__img"
+              alt="Image illustration connecter vos applications">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Connecter vos applications</h4>
+              <p class="card-text">Bénéficiez de notre API et connectez vos applications externes à votre plateforme
+                pour optimiser vos outils de travail.</p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">Les framworks</h3>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-configuration.png" class="descriptionCard__img"
+              alt="Image illustration configuration">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Configuration</h4>
+              <p class="card-text">Accédez à un large choix de configuration en créant vos politiques de communication
+                et d’accès aux données pour maîtriser votre plateforme.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-moderation.png" class=" descriptionCard__img"
+              alt="Image illustration modération du contenu">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Modération du contenu</h4>
+              <p class="card-text">Accédez et modérez tout le contenu de votre plateforme, pour contrôler votre image
+                en tout temps.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-security.png" class=" descriptionCard__img" alt="Image illustration sécurité">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Sécurité</h4>
+              <p class="card-text">Profitez d’une sécurité maximale, avec un espace qui vous est entièrement dédié et
+                une gestion totale de votre plateforme par nos équipes.</p>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-customization.png" class=" descriptionCard__img"
+              alt="Image illustration personnalisation">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Personnalisation</h4>
+              <p class="card-text">Personnalisez entièrement le design de votre plateforme pour garder votre identité
+                visuelle et valoriser votre image.</p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">Utilitaires</h3>
+
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-data-storage.png" class=" descriptionCard__img"
+              alt="Image illustration stockage des données">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Stockage des données</h4>
+              <p class="card-text">Centralisez vos données en une seule et même plateforme pour que l’information soit
+                stockée en toute sécurité et prête à être exploitée.</p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-sm-6 col-lg-3 card d-flex align-items-center descriptionCard__border p-3">
+            <img src="./img/product/icon-analysis.png" class="descriptionCard__img"
+              alt="Image illustration analyses personnalisées">
+            <div class="card-body text-center">
+              <h4 class="card-title descriptionCard__title">Analyses personnalisées</h4>
+              <p class="card-text">Utilisez les données de votre plateforme en effectuant des analyses personnalisées
+                pour augmenter votre productivité et prendre les meilleures décisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="partnerSection">
+      <div class="container">
+        <div class="mb-5 text-center">
+
+          <h3 class=" mb-5 mt-5">Nos partenaires</h3>
+
+          <p>Aujourd’hui, il y a une vingtaine d'entreprises qui utilisent notre plateforme avec différents modules
+            People.
+            Notre dernier client, Réseautage Montréal, utilise People pour optimiser le réseautage entre ses membres
+            pour qu'ils restent à l'affût des opportunités d'affaires en tout temps.
+          </p>
+
+          <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="carouselPartner__img" src="./img/partner/reseautage_montreal.png" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="carouselPartner__img" src="./img/partner/aqt.png" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/pme_montreal.jpg" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/gestiplan.png" alt="">
+              </div>
+              <div class="carousel-item btext-center">
+                <img class="carouselPartner__img" src="./img/partner/simplevu.png" alt="">
+              </div>
+            </div>
+
+            <button class="carousel-control-prev carouselPartner__btn" type="button"
+              data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden ">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactSection">
+      <div class="container">
+
+        <!-- Form -->
+        <form id="form" action="confirmation.html" onsubmit="return validateForm()">
+          <div class="mb-5">
+            <h2>Contactez nous</h2>
+            <p>Que ce soit pour nous poser une question, partager un commentaire ou nous demander une démo, nous mettons
+              à votre disposition notre formulaire.
+            </p>
+          </div>
+
+          <div class="row">
+
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="name" class="form-label">Nom <span>*</span></label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Entrer votre nom" autofocus>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="firstname" class="form-label">Prénom <span>*</span></label>
+                <input type="text" class="form-control" id="firstname" name="firstname"
+                  placeholder="Entrer votre prénom">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 mb-3">
+              <div class="mb-3 input-control">
+                <label for="entreprisename" class="form-label">Nom de votre entreprise</label>
+                <input type="text" class="form-control" id="entreprisename" name="entreprisename"
+                  placeholder="Entrer le nom de votre entreprise">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 mb-3">
+              <div class="mb-3 input-control">
+                <label for="province" class="form-label">Choisir votre Province ou Territoir</label>
+                <select class="form-select" aria-label="Default select example" id="province" name="province">
+                  <option selected>Choisire une Province</option>
+                  <option value="Al">Alberta</option>
+                  <option value="CB">Colombie-Britannique</option>
+                  <option value="IPE">Île-du Prince-Edouard</option>
+                  <option value="Ma">Manitoba</option>
+                  <option value="NB">Nouveau-Brunswick</option>
+                  <option value="NE">Nouvelle-Ecosse</option>
+                  <option value="Nu">Nunavut</option>
+                  <option value="On">Ontario</option>
+                  <option value="Qc">Québec</option>
+                  <option value="Sa">Saskatchewan</option>
+                  <option value="TNL">Terre-Neuve-et-Labrador</option>
+                  <option value="TNO">Territoires du Nord-Ouest</option>
+                  <option value="Yu">Yukon</option>
+                </select>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 mb-3">
+              <div class="form-floating input-control">
+                <textarea placeholder="Posez votre question ..." id="comment" name="comment" maxlength="350"></textarea>
+                <label for="comment"></label>
+                <div class="errorMessage"></div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="demo" name="demo">
+                <label class="form-check-label" for="demo"> Je souhaite recevoir la documentation de RESO People
+                  inc.</label>
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="container d-flex flex-column align-items-center">
+              <div class="line__horizontal"></div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="email" class="form-label">Courriel<span>*</span></label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="xyz@mail.com">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 mb-3">
+              <div class="input-control">
+                <label for="phonenumber" class="form-label">Téléphone</label>
+                <input type="tel" class="form-control" id="phonenumber" name="phonenumber"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Entrer votre numéro de téléphone">
+                <div class="errorMessage"></div>
+              </div>
+            </div>
+
+            <div class="col-12 mb-3 ">
+              <p>Je souhaite être contacté par : </p>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="checkemail" name="checkeradio" checked>
+                <label class="form-check-label" for="checkemail">
+                  Par courriel
+                </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="checkphone" name="checkeradio">
+                <label class="form-check-label" for="checkphone">
+                  Par téléphone
+                </label>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex flex-column flex-md-row-reverse">
+              <button type="submit" class="btn contactBtn ">Envoyer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <div class="container">
+      <div class="row p-5">
+        
+
+        <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
+          <div class="d-flex flex-column align-items-center mt-5">
+            <address class="addressInfo__item"><a href="tel:1-800-801-5321">1-800-801-5321</a>
+            </address>
+            <address class="addressInfo__item"><a href="mailto:info@resopeople.com">info@resopeople.com</a>
+            </address>
+            <ul class=" socialNetwork__icon mt-5">
+              <li>
+                <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/facebook.png"
+                    alt="Lien facebook"></a>
+              </li>
+              <li><a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/instagram.png"
+                    alt="Lien instagram"></a>
+              </li>
+              <li> <a class="footerList__link" href="#"> <img class="w-75" src="./img/icon-social-network/twitter.png"
+                    alt="Lien tweeter"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footerPresentation__color">
+      <div class="text-center p-2">
+        <p>Sana Ghariani</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script bootstrap 5-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Script fontawesome-->
+  <script src="https://kit.fontawesome.com/6bf57fc038.js" crossorigin="anonymous"></script>
+
+  <!-- Script validation-->
+  <script src="js/validation.js"></script>
+
+  <!-- Script install btn-->
+  <script src="js/install.js"></script>
+
+  <!-- Script service worker-->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then((reg) => {
+            console.log('Le service worker est chargé !', reg);
+          });
+      });
+    }
+  </script>
+</body>
+</html>

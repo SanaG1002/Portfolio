@@ -1,0 +1,72 @@
+@use 'variables';
+@use 'typography';
+
+
+#presentationSection {
+    background-image: url(../img/wave-solution.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
+.presentationPeople__bloc{
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+
+.side {
+    position: absolute;
+    width: 50vw;
+    top:0;
+    bottom:0;
+    margin-top: 200px;
+    z-index: 10;
+    &.left {
+      left:0;
+      &:hover {
+        &~.wrapper {
+          .front {
+            transform: matrix3d(0.94, 0, 0.34, -0.0002, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1) translateX(-10px);
+          }
+          .back {
+            transform: matrix3d(0.94, 0, 0.34, -0.00025, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1) translateX(30px);
+          }
+        }
+      }
+    }
+    &.right {
+      right: 0;
+      &:hover {
+        &~.wrapper {
+          .front {
+            transform: matrix3d(0.94, 0, 0.34, 0.0002, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1) translateX(30px);
+          }
+          .back {
+            transform: matrix3d(0.94, 0, 0.34, 0.0005, 0, 1, 0, 0, -0.34, 0, 0.94, 0, 1, 0, 10, 1.1) translateX(-100px);
+          }
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .front {
+    margin-right: 50px;
+    z-index: 1;
+  }
+    .back {
+    margin-left: 100px;
+    margin-top: -150px;
+    background-position: bottom;
+  }
+  

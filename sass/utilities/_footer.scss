@@ -1,0 +1,30 @@
+@use 'variables';
+@use 'typography';
+
+
+footer {
+  background-color: variables.$color-grey;
+}
+
+.footerLogo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footerLine__vertical{
+  border-right: 1px solid variables.$color-grey3;
+}
+
+.footerList__link{
+  text-decoration: none;
+  color: variables.$color-grey2;
+  &:hover {
+    color: variables.$color-grey2;
+    text-decoration: underline;
+  }
+}
+
+.footerPresentation__color {
+  color: variables.$color-grey;
+  background-color: variables.$color-black;
+}

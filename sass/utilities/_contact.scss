@@ -1,0 +1,102 @@
+@use 'variables';
+@use 'typography';
+
+
+#contactSection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: variables.$color-grey2;
+}
+
+#form {
+    border: 1px solid variables.$color-grey2;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: variables.$color-grey2;
+    color: variables.$color-black;
+}
+
+textarea {
+    min-height: 300px;
+}
+
+.contactBtn {
+    @extend%buttonPrimary;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid variables.$color-grey;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+    background-color: variables.$color-grey;
+    color: variables.$color-black;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border:3px solid green;
+}
+
+.input-control.error input {
+    border:3px solid red;
+}
+
+.input-control .errorMessage {
+    color: red;
+    font-size: 12px;
+    height: 13px
+}
+
+form span {
+    color: variables.$color-blue;
+}
+
+.input-control input:focus {
+    background-color: variables.$color-blue2;
+    border:2px solid variables.$color-blue;
+}
+
+.input-control input:hover {
+    background-color: variables.$color-blue2;
+    border:2px solid variables.$color-blue;
+}
+
+textarea{
+    background-color: variables.$color-grey;
+    border-radius: 5px;
+}
+
+textarea:focus {
+    background-color: variables.$color-blue2;
+    border:3px solid variables.$color-blue;
+}
+
+textarea:hover {
+    background-color: variables.$color-blue2;
+    border:3px solid variables.$color-blue;
+}
+
+.input-control select {
+    background-color: variables.$color-grey;
+}
+
+.input-control select:focus {
+    background-color: variables.$color-blue2;
+     border:2px solid variables.$color-blue;
+}
+
+.input-control select:hover {
+    background-color: variables.$color-blue2;
+    border:2px solid variables.$color-blue;
+}

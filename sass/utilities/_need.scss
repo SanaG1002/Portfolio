@@ -1,0 +1,17 @@
+@use 'variables';
+@use 'typography';
+
+
+#needSection {
+    background-color: variables.$color-grey2;
+    padding: 50px;
+}
+
+.need__card {
+    border: none;
+    background-color: variables.$color-grey2;
+}
+
+.needCard__link {
+    @extend%linkCard;
+}

@@ -1,0 +1,109 @@
+@use 'variables';
+@use 'typography';
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body { 
+    background-color: variables.$color-grey2;
+    font-family: variables.$font-fam1;
+    color: variables.$color-black;
+    font-size: 18px;
+    padding-top:115px;
+}
+
+main{
+  background-color: variables.$color-white;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: variables.$font-fam2;
+    animation-duration: 5s;
+    animation-name: slidein2;
+    color: variables.$color-red;
+}
+
+h3 {
+   font-size: 40px;
+   font-weight: 600;
+   color: variables.$color-blue;
+    font-family: variables.$font-fam2;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600; 
+    color: variables.$color-black;
+    font-family: variables.$font-fam2;
+}
+
+span {
+    font-weight: 500;
+    font-size: 18px;
+    color: variables.$color-black;
+}
+
+.line__horizontal{
+    border-bottom: 1px solid variables.$color-grey3;
+    width: 50%;
+    margin: 50px;
+}
+
+.socialNetwork__icon li{
+    display: inline-block;
+    margin: 0 10px;
+    margin: 10px;
+  }
+  
+.animationLeft {
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+
+.animationOpacity {
+    animation-duration: 2s;
+    animation-name: slidein2;
+}
+
+@keyframes slidein2 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+     opacity: 1;
+    }
+  }
+
+.animationRight{
+    animation-duration: 4s;
+    animation-name: slidein3;
+}
+
+@keyframes slidein3 {
+    from {
+      margin-right: 100%;
+      display: contents;
+    }
+  
+    to {
+      margin-right: 0%;
+    }
+  }

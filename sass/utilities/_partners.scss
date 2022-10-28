@@ -1,0 +1,17 @@
+@use 'variables';
+@use 'typography';
+
+
+#partnerSection {
+    background-color: variables.$color-blue3;
+    padding: 50px;
+}
+
+.carouselPartner__img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 165px;
+}
+

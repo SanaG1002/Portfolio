@@ -1,0 +1,79 @@
+@use 'variables';
+@use 'typography';
+
+
+header {
+  background-color: variables.$color-grey2;
+}
+
+.navBtnInstall{
+    color: variables.$color-black;
+    border-radius: 5px;
+    width: 250px;
+    font-size: 20px;
+    margin: 10px;
+    &:hover {
+      background-color: variables.$color-grey2;
+    }
+  }
+
+.navbar__bg{
+  background-color: variables.$color-grey2;
+}
+
+.navbarResponsive__bg {
+  background-color: variables.$color-grey2;
+  width: 100%;
+}
+
+h1 {
+  color: variables.$color-black;
+  font-family: 'Caveat', 'cursive';
+  font-size: 70px;
+  margin-left: 50px;
+}
+
+.menuNav__link {
+  @extend%menuNavlink;
+  margin: 10px;
+  display: flex;
+  align-items: baseline;
+  border-radius: 50px;
+  &:hover {
+      @extend%menuNavlinkhover;
+      color: variables.$color-black;
+  }
+  &:focus {
+    @extend%menuNavlinkhover;
+    color: variables.$color-grey;
+  }
+}
+
+.menuNav__hover {
+  @extend%menuNavlinkhover;
+  color: variables.$color-black;
+}
+
+.nav__btnResponsive {
+  color: black;
+  outline: none;
+}
+
+.modal__bg {
+  background-color: variables.$color-black;
+  color: variables.$color-grey3;
+}
+
+.modalTitle {
+  color: variables.$color-blue2;
+}
+
+.modalText {
+  color: variables.$color-blue2;
+  font-size: 22px;
+}
+
+
+
+
+
