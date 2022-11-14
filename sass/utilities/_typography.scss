@@ -15,7 +15,7 @@
 }
 
 %buttonPrimary {
-	background-color: variables.$color-blue;
+	background-color: variables.$color-blue2;
     color: variables.$color-grey2;
     font-weight: bold;
     font-size: 23px;
@@ -24,20 +24,20 @@
     padding-right: 20px;
     margin-top: 40px;
 	&:hover{
-		background-color: #1f6b74;
+		background-color: #0f4a9b;
 		color: variables.$color-grey2;
-		border-color: #1f6b74;
+		border-color: #0f4a9b;
 	}
 }
 
 %linkCard {
     text-decoration: none;
-	color: variables.$color-blue;
+	color: variables.$color-blue2;
     font-size: 20px;
     font-weight: 600;
 	&:hover{
 		color: #0f4a9b;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 }
 

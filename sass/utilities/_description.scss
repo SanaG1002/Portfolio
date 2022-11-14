@@ -8,11 +8,16 @@
 }
 
 .descriptionCardBody__bg{
-    background-color: variables.$color-grey2;
+    background-color: variables.$color-black;
+    color: variables.$color-grey2;
 }
 
 .descriptionCard__img{
-    max-width: 40%;
+    height: 100px;
+}
+
+.descriptionProject__img{
+    border-radius: 5px;
 }
 
 .descriptionCard__border {
@@ -21,5 +26,10 @@
 
 .descriptionCard__title {
     font-size: 20px;
+    color: variables.$color-black;
+}
+
+.descriptionCard {
+    background-color: variables.$color-grey2;
     color: variables.$color-black;
 }

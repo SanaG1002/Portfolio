@@ -21,26 +21,36 @@ main{
   background-color: variables.$color-white;
 }
 
+.noUnderline {
+text-decoration: none;
+}
+
 h2 {
     font-size: 50px;
-    font-weight: 600;
     font-family: variables.$font-fam2;
     animation-duration: 5s;
     animation-name: slidein2;
-    color: variables.$color-red;
+    color: variables.$color-black;
 }
 
 h3 {
    font-size: 40px;
-   font-weight: 600;
-   color: variables.$color-blue;
+   font-weight: bold;
+   color: variables.$color-grey2;
     font-family: variables.$font-fam2;
+}
+
+.titreRose {
+  font-size: 40px;
+  font-weight: 600;
+  color: variables.$color-black;
+   font-family: variables.$font-fam2;
 }
 
 h4 {
     font-size: 25px;
     font-weight: 600; 
-    color: variables.$color-black;
+    color: variables.$color-grey2;
     font-family: variables.$font-fam2;
 }
 
@@ -51,7 +61,7 @@ span {
 }
 
 .line__horizontal{
-    border-bottom: 1px solid variables.$color-grey3;
+    border-bottom: 1px solid variables.$color-blue2;
     width: 50%;
     margin: 50px;
 }
@@ -63,6 +73,7 @@ span {
   }
   
 .animationLeft {
+  width: 50%;
     animation-duration: 4s;
     animation-name: slidein;
 }

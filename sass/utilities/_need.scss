@@ -3,13 +3,14 @@
 
 
 #needSection {
-    background-color: variables.$color-grey2;
+    background-color: variables.$color-black;
     padding: 50px;
+    color:  variables.$color-grey2;
 }
 
 .need__card {
     border: none;
-    background-color: variables.$color-grey2;
+    background-color: variables.$color-black;
 }
 
 .needCard__link {

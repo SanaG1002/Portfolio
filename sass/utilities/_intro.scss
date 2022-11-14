@@ -17,3 +17,13 @@
 .introText__size {
     font-size: 25px;
 }
+
+.introLink {
+    text-decoration: none;
+	color: variables.$color-blue;
+}
+
+.introLink:hover {
+		color: #0f4a9b;
+		text-decoration: none;
+	}

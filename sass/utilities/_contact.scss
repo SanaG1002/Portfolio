@@ -63,12 +63,12 @@ form span {
 }
 
 .input-control input:focus {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
     border:2px solid variables.$color-blue;
 }
 
 .input-control input:hover {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
     border:2px solid variables.$color-blue;
 }
 
@@ -78,12 +78,12 @@ textarea{
 }
 
 textarea:focus {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
     border:3px solid variables.$color-blue;
 }
 
 textarea:hover {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
     border:3px solid variables.$color-blue;
 }
 
@@ -92,11 +92,11 @@ textarea:hover {
 }
 
 .input-control select:focus {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
      border:2px solid variables.$color-blue;
 }
 
 .input-control select:hover {
-    background-color: variables.$color-blue2;
+    background-color: variables.$color-blue3;
     border:2px solid variables.$color-blue;
 }

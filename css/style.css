@@ -14,7 +14,7 @@
 }
 
 .contactBtn, .introBtn {
-  background-color: #329faa;
+  background-color: #2474d7;
   color: black;
   font-weight: bold;
   font-size: 23px;
@@ -24,20 +24,20 @@
   margin-top: 40px;
 }
 .contactBtn:hover, .introBtn:hover {
-  background-color: #1f6b74;
+  background-color: #0f4a9b;
   color: black;
-  border-color: #1f6b74;
+  border-color: #0f4a9b;
 }
 
 .price__btn, .needCard__link {
   text-decoration: none;
-  color: #329faa;
+  color: #2474d7;
   font-size: 20px;
   font-weight: 600;
 }
 .price__btn:hover, .needCard__link:hover {
   color: #0f4a9b;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 * {
@@ -60,26 +60,36 @@ main {
   background-color: white;
 }
 
+.noUnderline {
+  text-decoration: none;
+}
+
 h2 {
   font-size: 50px;
-  font-weight: 600;
   font-family: "Karla", sans-serif;
   animation-duration: 5s;
   animation-name: slidein2;
-  color: #edd88b;
+  color: rgb(222, 189, 189);
 }
 
 h3 {
   font-size: 40px;
+  font-weight: bold;
+  color: black;
+  font-family: "Karla", sans-serif;
+}
+
+.titreRose {
+  font-size: 40px;
   font-weight: 600;
-  color: #329faa;
+  color: rgb(222, 189, 189);
   font-family: "Karla", sans-serif;
 }
 
 h4 {
   font-size: 25px;
   font-weight: 600;
-  color: rgb(222, 189, 189);
+  color: black;
   font-family: "Karla", sans-serif;
 }
 
@@ -90,7 +100,7 @@ span {
 }
 
 .line__horizontal {
-  border-bottom: 1px solid #aeafb1;
+  border-bottom: 1px solid #2474d7;
   width: 50%;
   margin: 50px;
 }
@@ -102,6 +112,7 @@ span {
 }
 
 .animationLeft {
+  width: 50%;
   animation-duration: 4s;
   animation-name: slidein;
 }
@@ -200,16 +211,16 @@ h1 {
 }
 
 .modalTitle {
-  color: #c8e3e6;
+  color: #2474d7;
 }
 
 .modalText {
-  color: #c8e3e6;
+  color: #2474d7;
   font-size: 22px;
 }
 
 footer {
-  background-color: #edeff3;
+  background-color: white;
 }
 
 .footerLogo {
@@ -246,8 +257,19 @@ footer {
   font-size: 25px;
 }
 
+.introLink {
+  text-decoration: none;
+  color: #329faa;
+}
+
+.introLink:hover {
+  color: #0f4a9b;
+  text-decoration: none;
+}
+
 #partnerSection {
-  background-color: #c8e3e6;
+  background-color: rgb(222, 189, 189);
+  color: black;
   padding: 50px;
 }
 
@@ -260,13 +282,14 @@ footer {
 }
 
 #needSection {
-  background-color: black;
+  background-color: rgb(222, 189, 189);
   padding: 50px;
+  color: black;
 }
 
 .need__card {
   border: none;
-  background-color: black;
+  background-color: rgb(222, 189, 189);
 }
 
 #descriptionSelection {
@@ -275,11 +298,16 @@ footer {
 }
 
 .descriptionCardBody__bg {
-  background-color: black;
+  background-color: rgb(222, 189, 189);
+  color: black;
 }
 
 .descriptionCard__img {
-  max-width: 40%;
+  height: 100px;
+}
+
+.descriptionProject__img {
+  border-radius: 5px;
 }
 
 .descriptionCard__border {
@@ -288,6 +316,11 @@ footer {
 
 .descriptionCard__title {
   font-size: 20px;
+  color: rgb(222, 189, 189);
+}
+
+.descriptionCard {
+  background-color: black;
   color: rgb(222, 189, 189);
 }
 
