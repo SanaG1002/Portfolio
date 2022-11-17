@@ -38,10 +38,10 @@
               <a class="menuNav__link" href="index.html">Présentation</a>
             </li>
             <li>
-              <a class="menuNav__link" href="index.html">Projet</a>
+              <a class="menuNav__link" href="index.html">Compétences</a>
             </li>
             <li>
-              <a class="menuNav__link" href="index.html">Compétance</a>
+              <a class="menuNav__link" href="index.html">Projets</a>
             </li>
             <li>
               <a class="menuNav__link" href="contact.html">Contact</a>
@@ -61,7 +61,6 @@
         <form id="form" action="confirmation.html" onsubmit="return validateForm()">
           <div class="mb-5">
             <h2>Contactez moi</h2>
-           
           </div>
 
           <div class="row">
@@ -94,9 +93,9 @@
 
             <div class="col-12 mb-3">
               <div class="mb-3 input-control">
-                <label for="province" class="form-label">Choisir votre Province ou Territoir</label>
+                <label for="province" class="form-label">Choisir votre province ou territoire</label>
                 <select class="form-select" aria-label="Default select example" id="province" name="province">
-                  <option selected>Choisire une Province</option>
+                  <option selected>Choisir une province</option>
                   <option value="Al">Alberta</option>
                   <option value="CB">Colombie-Britannique</option>
                   <option value="IPE">Île-du Prince-Edouard</option>
@@ -117,14 +116,8 @@
 
             <div class="col-12 mb-3">
               <div class="form-floating input-control">
-                <textarea placeholder="Posez votre question ..." id="comment" name="comment" maxlength="350"></textarea>
+                <textarea placeholder="Poser votre question ..." id="comment" name="comment" maxlength="350"></textarea>
                 <label for="comment"></label>
-                <div class="errorMessage"></div>
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="demo" name="demo">
-                <label class="form-check-label" for="demo"> Je souhaite recevoir la documentation de RESO People
-                  inc.</label>
                 <div class="errorMessage"></div>
               </div>
             </div>
@@ -150,21 +143,6 @@
               </div>
             </div>
 
-            <div class="col-12 mb-3 ">
-              <p>Je souhaite être contacté par : </p>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="checkemail" name="checkeradio" checked>
-                <label class="form-check-label" for="checkemail">
-                  Par courriel
-                </label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" id="checkphone" name="checkeradio">
-                <label class="form-check-label" for="checkphone">
-                  Par téléphone
-                </label>
-              </div>
-            </div>
 
             <div class="col-12 d-flex flex-column flex-md-row-reverse">
               <button type="submit" class="btn contactBtn ">Envoyer</button>
